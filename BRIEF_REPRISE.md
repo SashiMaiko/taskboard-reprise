@@ -28,11 +28,3 @@ Atelier Horizon organise des ateliers associatifs. Le prototype sert à noter le
 6. Examiner la correction et décider à nouveau.
 
 N’inventez pas un défaut pour remplir la review. Une proposition peut être acceptable. Ne prétendez pas avoir exécuté un test si vous avez seulement lu son scénario.
-
-## Fiche d’observation
-
-| Affirmation de la PR | Vérification effectuée | Observation ou information manquante | Retour à l’auteur |
-|---|---|---|---|
-| À compléter | À compléter | À compléter | À compléter |
-
-Les numéros d’issues et de PR sont ceux affichés par GitHub. Les codes de préparation utilisés par l’enseignant ne sont pas des numéros GitHub.
