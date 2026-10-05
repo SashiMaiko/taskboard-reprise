@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="fr">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TaskBoard — atelier de collaboration</title><link rel="stylesheet" href="styles.css"></head>
+<body><main>
+<p class="eyebrow">Atelier de collaboration</p><h1>TaskBoard</h1>
+<p>Une liste de tâches pour apprendre à contribuer ensemble.</p>
+<form id="task-form">
+  <label for="task-title">Titre de la tâche</label>
+  <div class="input-row"><input id="task-title" name="title" autocomplete="off" aria-describedby="message">
+  <button type="submit">Ajouter</button></div>
+</form>
+<p id="message" role="status" aria-live="polite"></p>
+<ul id="task-list" aria-label="Tâches"></ul>
+<p class="note">Les tâches sont conservées en mémoire pendant cette ouverture de la page.</p>
+</main>
+<script src="tasks.js"></script><script src="view.js"></script><script src="app.js"></script>
+</body></html>
